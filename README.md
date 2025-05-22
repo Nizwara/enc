@@ -1,5 +1,6 @@
 # ENC
-
+![License](https://img.shields.io/badge/License-Killer-blue.svg)
+![Version](https://img.shields.io/badge/Version-1.0-green.svg)
 ## INSTALASI
 
  1. Tahap 1
