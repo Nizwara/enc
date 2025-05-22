@@ -123,12 +123,3 @@ Kontribusi, laporan bug, dan permintaan fitur sangat diterima. Silakan buka *iss
 **Disclaimer**: Skrip ini disediakan "apa adanya", tanpa jaminan apa pun. Penggunaan skrip ini merupakan tanggung jawab pengguna sepenuhnya. Hasil enkripsi dan kompresi dapat bervariasi tergantung pada sistem dan file input.
 ```
 
-### **File LICENSE (Opsional)**
-
-```text
-KILLER License
-Copyright (c) 2025 KILLER. All Rights Reserved.
-
-This script is proprietary and confidential. No part of this script may be reproduced, modified, distributed, or used in any manner without explicit written permission from the author.
-```
-
