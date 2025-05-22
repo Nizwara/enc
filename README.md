@@ -1,7 +1,7 @@
 
-# enc
+# ENC
 
-# Bash Script Obfuscator
+# Bash Script Encripts
 
 ![License](https://img.shields.io/badge/License-KILLER-blue.svg)
 ![Version](https://img.shields.io/badge/Version-1.0-green.svg)
