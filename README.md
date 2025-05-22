@@ -121,5 +121,5 @@ Kontribusi, laporan bug, dan permintaan fitur sangat diterima. Silakan buka *iss
 ---
 
 **Disclaimer**: Skrip ini disediakan "apa adanya", tanpa jaminan apa pun. Penggunaan skrip ini merupakan tanggung jawab pengguna sepenuhnya. Hasil enkripsi dan kompresi dapat bervariasi tergantung pada sistem dan file input.
-```
+
 
