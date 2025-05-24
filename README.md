@@ -10,7 +10,7 @@ Script untuk mengenkripsi dan mengompresi file shell script (.sh) agar kode lebi
 
 ## Fitur
 
-- ✅ Enkripsi file shell script tunggal menggunakan `shc`
+- ✅ Enkripsi file shell script tunggal menggunakan `gpg`
 - ✅ Enkripsi masal untuk semua file `.sh` di direktori
 - ✅ Kompresi file terenkripsi dengan `gzexe` untuk menghemat ruang
 - ✅ Penambahan header copyright pada file hasil kompresi
@@ -22,7 +22,7 @@ Script untuk mengenkripsi dan mengompresi file shell script (.sh) agar kode lebi
 ## Cara Penggunaan
 
 ### **Tahap 1: Instal Dependensi**
-Pastikan `shc` dan `gzip` terinstal di sistem kamu:
+Pastikan `gpg` dan `gzip` terinstal di sistem kamu:
 
 ```bash
 sudo apt update && sudo apt upgrade -y --fix-missing && sudo apt install -y shc gzip gnupg bash python3 nodejs
@@ -79,14 +79,14 @@ Setelah menjalankan skrip, kamu akan melihat menu berikut:
 ## Persyaratan Sistem
 
 - **Sistem Operasi**: Ubuntu 18.04+/Debian 9+/CentOS 7+ atau distribusi Linux lainnya
-- **Dependensi**: `shc`, `gzip` (termasuk `gzexe`)
+- **Dependensi**: `gpg`, `gzip` (termasuk `gzexe`)
 - **Akses Root**: Diperlukan untuk instalasi dependensi
 - **Ruang Disk**: Minimal, tergantung ukuran file skrip
 
 ## Proses yang Dilakukan
 
 Skrip ini melakukan langkah-langkah berikut:
-- **Enkripsi**: Menggunakan `shc` untuk mengubah file `.sh` menjadi binary terenkripsi (`.sh.x`).
+- **Enkripsi**: Menggunakan `gpg` untuk mengubah file `.sh` menjadi binary terenkripsi (`.sh.x`).
 - **Kompresi**: Menggunakan `gzexe` untuk mengompresi file `.sh.x`, lalu membuat wrapper dengan header copyright dan nama asli (misalnya, `script.sh`).
 - **Manajemen Cadangan**: Menyimpan file cadangan (`.gzexe~`) dengan opsi penghapusan.
 - **Header Copyright**: Menambahkan informasi hak cipta pada file hasil kompresi:
