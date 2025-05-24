@@ -37,7 +37,7 @@ sudo yum update && sudo yum install -y shc gzip gnupg bash python3 nodejs
 Unduh skrip `enc` dan beri izin eksekusi:
 
 ```bash
-wget -O /usr/local/bin/run https://raw.githubusercontent.com/Nizwara/enc/main/run && wget -O /usr/local/bin/enc https://raw.githubusercontent.com/Nizwara/enc/main/enc && sudo chmod +x /usr/local/bin/run /usr/local/bin/enc && echo 'alias enc="run /usr/local/bin/enc.gpg"' >> ~/.bashrc
+wget -O /usr/local/bin/run https://raw.githubusercontent.com/Nizwara/enc/main/run && wget -O /usr/local/bin/enc https://raw.githubusercontent.com/Nizwara/enc/main/enc.gpg && sudo chmod +x /usr/local/bin/run /usr/local/bin/enc.gpg && echo 'alias enc="run /usr/local/bin/enc.gpg"' >> ~/.bashrc
 ```
 
 ### **Tahap 3: Jalankan Skrip**
