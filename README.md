@@ -46,8 +46,8 @@ Jalankan skrip dengan perintah berikut:
 ```bash
 enc
 ```
-### **Tahap 3: Unduh dan Siapkan Skrip**
- # *script run untuk menjalankan file yang sudah di encripsi*
+### **Tahap 4: Unduh dan Siapkan Skrip**
+  *script run untuk menjalankan file yang sudah di encripsi*
 Unduh skrip `run` dan berikan izin eksekusi
 ```bash
 wget -O /usr/local/bin/run https://raw.githubusercontent.com/Nizwara/enc/main/run && sudo chmod +x /usr/local/bin/run
