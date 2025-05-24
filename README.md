@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/License-KILLER-blue.svg)
 ![Version](https://img.shields.io/badge/Version-1.0-green.svg)
 
-Script untuk mengenkripsi dan mengompresi file shell script (.sh) agar kode lebih aman dan ukuran file lebih kecil. Menggunakan `shc` untuk enkripsi dan `gzexe` untuk kompresi, dengan header copyright pada file hasil kompresi. Cocok untuk melindungi skrip sensitif di VPS atau server.
+Script untuk mengenkripsi dan mengompresi file shell script (.sh) agar kode lebih aman dan ukuran file lebih kecil. Menggunakan `gpg` untuk enkripsi dan `gzexe` untuk kompresi, dengan header copyright pada file hasil kompresi. Cocok untuk melindungi skrip sensitif di VPS atau server.
 
 ## Fitur
 
@@ -37,7 +37,7 @@ sudo yum update && sudo yum install -y shc gzip gnupg bash python3 nodejs
 Unduh skrip `enc` dan beri izin eksekusi:
 
 ```bash
-wget -O /usr/local/bin/enc https://raw.githubusercontent.com/Nizwara/enc/main/enc && sudo chmod +x /usr/local/bin/enc
+wget -O /usr/local/bin/encrip https://raw.githubusercontent.com/Nizwara/enc/main/encrip && sudo chmod +x /usr/local/bin/encrip
 ```
 
 ### **Tahap 3: Jalankan Skrip**
