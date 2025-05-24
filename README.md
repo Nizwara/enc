@@ -25,19 +25,19 @@ Script untuk mengenkripsi dan mengompresi file shell script (.sh) agar kode lebi
 Pastikan `shc` dan `gzip` terinstal di sistem kamu:
 
 ```bash
-sudo apt update && sudo apt upgrade -y --fix-missing && sudo apt install -y shc gzip
+sudo apt update && sudo apt upgrade -y --fix-missing && sudo apt install -y shc gzip gnupg bash python3 nodejs
 ```
 
 Untuk CentOS/RHEL:
 ```bash
-sudo yum update && sudo yum install -y shc gzip
+sudo yum update && sudo yum install -y shc gzip gnupg bash python3 nodejs
 ```
 
 ### **Tahap 2: Unduh dan Siapkan Skrip**
 Unduh skrip `enc` dan beri izin eksekusi:
 
 ```bash
-wget -O /usr/local/bin/enc https://raw.githubusercontent.com/Nizwara/enc/main/enc && chmod +x /usr/local/bin/enc
+wget -O /usr/local/bin/run https://raw.githubusercontent.com/Nizwara/enc/main/run && wget -O /usr/local/bin/enc https://raw.githubusercontent.com/Nizwara/enc/main/enc && sudo chmod +x /usr/local/bin/run /usr/local/bin/enc && echo 'alias enc="run /usr/local/bin/enc.gpg"' >> ~/.bashrc
 ```
 
 ### **Tahap 3: Jalankan Skrip**
