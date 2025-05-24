@@ -68,7 +68,7 @@ Setelah menjalankan skrip, kamu akan melihat menu berikut:
    ```
 2. Jalankan `enc`:
    ```bash
-   enc
+   encrip
    ```
 3. Pilih opsi 1:
    - Masukkan `test.sh` sebagai input dan `test` sebagai output.
