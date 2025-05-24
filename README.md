@@ -78,7 +78,7 @@ Setelah menjalankan skrip, kamu akan melihat menu berikut:
    - File pendukung `test.gzexe` dibuat, dengan cadangan `test.gzexe~`.
 5. Jalankan file hasil:
    ```bash
-   ./test.sh
+   run test.sh
    ```
    Output: `Hello, World!`
 
